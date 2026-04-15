@@ -423,7 +423,7 @@ namespace BizSim.Unity.Figma.Importer.Editor {
                 return;
             }
 
-            var editor = Editor.CreateEditor(_settings);
+            var editor = UnityEditor.Editor.CreateEditor(_settings);
             editor.OnInspectorGUI();
             DestroyImmediate(editor);
         }
