@@ -1,8 +1,8 @@
 {
   "name": "com.bizsim.unity.figma.importer",
   "version": "1.0.1",
-  "displayName": "BizSim Unity Figma Importer",
-  "description": "Required Unity Editor companion to the Figma2UnityUIToolkit Figma plugin. Reads the plugin's generated Asset Manifest and downloads images, icons, and fonts from Figma via REST API — turning generated UXML/USS into a working UI.",
+  "displayName": "BizSim Figma Importer",
+  "description": "Unity package for importing Figma assets via REST API. Editor-only companion to the Figma UI Toolkit Generator plugin — imports images, icons, and fonts from Figma designs directly into Unity.",
   "unity": "6000.0",
   "author": {
     "name": "BizSim Game Studios"
